@@ -19,6 +19,7 @@ Made for educational purposes only.
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <string>
+#include <cstring>
 
 /*
 Errors that returns approximately 500, are related to UDP method.
@@ -108,19 +109,20 @@ namespace EasySockets{
                 }
 
 
-
+                        return NO_ERRORS;
 
          }
          int SendMessage(char message[],int flags = MSG_DONTWAIT){
 
 
-                 int sender = sendto(sock,message,sizeof(message),flags,(struct sockaddr*)&address,sizeof(address));
+                 int sender = sendto(sock,message,strlen(message),flags,(struct sockaddr*)&address,sizeof(address));
                         if(sender == -1){
 
                                         return SEND_ERROR;
 
 
-                        }
+                        } 
+
 
          }
         int WaitForMessage(int sockfd, int flag = MSG_DONTWAIT){
@@ -138,7 +140,7 @@ namespace EasySockets{
 
 
                         printf("%s\n",UDPServerBuffer);
-
+                        return NO_ERRORS;
 
                 }
 
