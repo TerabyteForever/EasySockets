@@ -10,8 +10,8 @@ Made for educational purposes only.
 
 
 */
-#ifndef EASYSOCKETS_HPP
-#define EASYSOCKETS_HPP
+#ifndef SPACESOCKETS_HPP
+#define SPACESOCKETS_HPP
 
 #include <iostream>
 #include <stdio.h>
@@ -42,7 +42,7 @@ Errors that returns approximately 600, are related to TCP method.
 
 using namespace std;
 
-namespace EasySockets{
+namespace SpaceSockets{
         char UDPServerBuffer[1024] = {0};
         char UDPClientBuffer[1024] = {0};
         char TCPClientBuffer[1024] = {0};

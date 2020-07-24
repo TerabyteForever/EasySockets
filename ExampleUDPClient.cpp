@@ -4,10 +4,10 @@
 
 int main(){
 
-        int CreateUDPClient = EasySockets::UDP();
+        int CreateUDPClient = SpaceSockets::UDP();
         while(1){
 
-                EasySockets::SendMessage("Hello world!",MSG_DONTWAIT);
+                SpaceSockets::SendMessage("Hello world!",MSG_DONTWAIT);
                 
 
 
