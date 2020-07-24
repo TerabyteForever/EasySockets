@@ -1,4 +1,4 @@
-# EasySockets
+# SpaceSockets
 Makes socket programming much easier for C++ developers.
 
 It supports both TCP and UDP methods, but TCP method has some problems. So, I'll probably fix that later.
