@@ -1,0 +1,3 @@
+system("g++ ExampleUDPServer.cpp -o server");
+system("g++ ExampleUDPClient.cpp -o client");
+return
