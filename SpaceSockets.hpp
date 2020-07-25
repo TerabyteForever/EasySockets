@@ -1,14 +1,13 @@
 /*
 
-EasySockets 
+SpaceSockets 
 
 Lets you to create sockets easily.
 
 Made by Ali Sancakli, 2020 <github.com/TerabyteForever> <alisancakli05@gmail.com>
 
 Made for educational purposes only.
-
-
+SpaceSockets licensed under the terms of MIT License.
 */
 #ifndef SPACESOCKETS_HPP
 #define SPACESOCKETS_HPP
@@ -163,7 +162,7 @@ namespace SpaceSockets{
 
 
         }
-        int TCPSendMessage(char message[],int socketFileDesc = EasySockets::socktcp,int flags = MSG_DONTWAIT){
+        int TCPSendMessage(char message[],int socketFileDesc = SpaceSockets::socktcp,int flags = MSG_DONTWAIT){
 
                 sendertcp = send(socketFileDesc,message,strlen(message),flags);
 
