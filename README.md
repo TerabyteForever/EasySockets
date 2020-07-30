@@ -12,6 +12,6 @@ It supports both TCP and UDP methods, but TCP method has some problems. So, I'll
 
 [21.07.2020 20.14] One of the major bugs has been solved. You can send your messages without any limitation now!
 
-## Warning: It doesn't work on Windows. It only works at GNU/Linux, FreeBSD, UNIX-like and UNIX-based operating systems.
-#### SpaceSockets licensed under the terms of MIT License.
+## Warning: It doesn't work on Windows. It only works on GNU/Linux, FreeBSD, UNIX-like and UNIX-based operating systems.
+#### SpaceSockets is licensed under the terms of MIT License.
 
