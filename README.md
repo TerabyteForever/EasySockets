@@ -1,3 +1,5 @@
+# ATTENTION! This version of SpaceSockets is outdated! Use SpaceSockets2 instead: https://github.com/SpaceCraftTR/spacesockets2
+
 # SpaceSockets
 ## Makes socket programming much easier for C++ developers.
 
